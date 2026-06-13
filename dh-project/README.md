@@ -7,12 +7,12 @@
 - `index.qmd` — исходник главной страницы
 - `_quarto.yml` — конфигурация сайта
 - `images/` — картинки
-- `toponym_map.html` — интерактивная карта (встраивается через iframe)
-- `docs/` — собранный сайт (отсюда публикует GitHub Pages)
+- `toponym_map.html` — интерактивная карта
+- `docs/` — собранный сайт
 
 ## Локальная сборка
 
 ```bash
-quarto render      # собрать сайт в docs/
-quarto preview     # превью с автообновлением
+quarto render      # 
+quarto preview     
 ```
